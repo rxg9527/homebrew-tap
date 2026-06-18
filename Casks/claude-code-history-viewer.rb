@@ -2,7 +2,7 @@ cask "claude-code-history-viewer" do
   version "1.13.2"
   sha256 "91a7149d100dfd50811edfbeffcc87d7fef7e4e74fe10550bc50d932b17fe7a4"
 
-  url "https://github.com/rxg9527/claude-code-history-viewer/releases/download/v1.13.2/Claude.Code.History.Viewer_1.13.1_universal.dmg"
+  url "https://github.com/rxg9527/claude-code-history-viewer/releases/download/v#{version}/Claude.Code.History.Viewer_1.13.1_universal.dmg"
   name "Claude Code History Viewer"
   desc "Unified history viewer for AI coding assistants"
   homepage "https://github.com/rxg9527/claude-code-history-viewer"
