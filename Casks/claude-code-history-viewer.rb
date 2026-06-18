@@ -13,8 +13,6 @@ cask "claude-code-history-viewer" do
   end
 
   auto_updates true
-  depends_on macos: :high_sierra
-
   app "Claude Code History Viewer.app"
 
   uninstall quit: "com.claude.history-viewer"
